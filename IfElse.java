@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class AI_chatBot {
+public class IfElse {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Welcome to my chatbot!");
@@ -19,7 +19,7 @@ public class AI_chatBot {
 
     private static String generateResponse(String userInput) {
         // Simple rules to generate responses
-        
+
         if (userInput.contains("hello")) {
             return "Hello! How can I help you today?";
         } else if (userInput.contains("how are you")) {

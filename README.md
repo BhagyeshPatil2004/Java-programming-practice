@@ -5,7 +5,7 @@ This repository contains my Java programming practice files, covering a wide ran
 ## 📂 Project Structure
 
 ### 🤖 Projects
-- **AI_chatBot.java**: A simple AI chatbot implementation.
+- **IfElse.java**: A simple AI chatbot implementation using if-else statements.
 
 ### 🖥️ GUI Programming (AWT)
 - **AWT Series**: `AWT.java` through `AWT15.java` covering various AWT components and event handling.
