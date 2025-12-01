@@ -1,0 +1,32 @@
+class Student
+{
+    private String name;
+    private int age;
+    
+    public String getName()
+    {
+        return name;
+    }
+    public void setName(String name)
+    {
+        this.name = name;
+    }
+    public int getAge()
+    {
+        return age;
+    }
+    public void setAge(int age)
+    {
+        this.age = age;
+    }
+}
+public class Incapsution 
+{
+   public static void main(String[] args) {
+    Student s = new Student();
+    s.setName("Godzilla");
+    s.setAge(97);
+    System.out.println(s.getName());
+    System.out.println(s.getAge());
+   }
+}
